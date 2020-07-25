@@ -4756,7 +4756,7 @@
         float:left;
         height:1850px;
         padding:0 15px;
-/*         display:none; */
+        display:none;
         position:absolute;
         top:0;
         left:0;
@@ -4793,10 +4793,10 @@
         display:none;
     }
     .left-section-one-top p{
-        color:white;;
+        color:#00ff00;
         padding:10px;
         font-family:cursive;
-        text-shadow:1px 1px #00ff00;
+        text-shadow:none;
     }
 
     /* ====================================== */
@@ -4820,7 +4820,7 @@
         padding:20px;
         color:white;
         font-family:monospace;
-        font-size:16px;
+        font-size:14px;
     }
     .fa-angle-right{
         float:right;
@@ -4836,7 +4836,7 @@
         width:100%;
         color:white;
         font-family:monospace;
-        font-size:16px;
+        font-size:14px;
         cursor:pointer;
     }
     .men-items{
@@ -4847,7 +4847,7 @@
     .men-items p{
         border-bottom:1px solid blue;
         margin-left:20px;
-        font-size:19px;
+        font-size:18px;
     }
     .men-items p a{
         color:white;
@@ -4865,7 +4865,7 @@
         padding:20px;
         color:white;
         font-family:monospace;
-        font-size:16px;
+        font-size:14px;
     }
     .women-items{
         line-height:50px;
@@ -4875,7 +4875,7 @@
     .women-items p{
         border-bottom:1px solid blue;
         margin-left:20px;
-        font-size:19px;
+        font-size:18px;
     }
     .women-items p a{
         color:white;
@@ -4893,7 +4893,7 @@
         padding:20px;
         color:white;
         font-family:monospace;
-        font-size:16px;
+        font-size:14px;
     }
 
     /* ======================================= */
@@ -4903,7 +4903,7 @@
         padding:20px;
         color:white;
         font-family:monospace;
-        font-size:16px;
+        font-size:14px;
     }
 
     /* ======================================== */
@@ -4913,7 +4913,7 @@
         padding:20px;
         color:white;
         font-family:monospace;
-        font-size:16px;
+        font-size:14px;
     }
 
     /* ========================================= */
@@ -4923,7 +4923,7 @@
         padding:20px;
         color:white;
         font-family:monospace;
-        font-size:16px;
+        font-size:14px;
     }
 
     /* ========================================== */
@@ -4933,7 +4933,7 @@
         padding:20px;
         color:white;
         font-family:monospace;
-        font-size:16px;
+        font-size:14px;
     }
 
     /* =========================================== */
@@ -4943,7 +4943,7 @@
         padding:20px;
         color:white;
         font-family:monospace;
-        font-size:16px;
+        font-size:14px;
     }
 
     /* =========================================== */
@@ -4953,26 +4953,27 @@
         padding:20px;
         color:white;
         font-family:monospace;
-        font-size:16px;
+        font-size:14px;
     }
 
     /*  */
     .tk{
         background:white;
-        height:50px;
+        height:40px;
         width:100%;
         border-radius:25px;
     }
     .tk p{
         height:35px;
         border-radius:35px;
-        padding:15px;
+        padding:10px;
         color:red;
         text-shadow:1px 1px rgb(8, 12, 68);
+        font-size:14px;
     }
     .tk p span{
         font-family:allura;
-        font-size:18px;
+        font-size:17px;
     }
 
 
