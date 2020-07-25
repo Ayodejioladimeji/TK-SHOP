@@ -5,6 +5,12 @@ $(document).ready(function () {
 });
 
 
+$(document).ready(function(){
+    $("#bar").click(function(){
+        $("#left-sections").toggle("slow");
+    });
+});
+
 $(document).ready(function () {
     $(".women").click(function () {
         $(".women-items").slideToggle("slow");
