@@ -5,17 +5,13 @@
         margin:0;
         padding:0;
     }
-    /* body{
-        background:pink;
-        height:3000px;
-    } */
 
 
     /* ================================ */
     .container{
         width:100%;
         /* height:4100px; */
-        background:#999;
+        background:#f4f6fa;
     }
 
 
@@ -235,27 +231,27 @@
     /* =========================================================== */
     /* ======THE SECTION OF THE SECTION======= */
     section{
-        height:1850px;
+        height:700px;
         width:100%;
-        /* background:blue; */
     }
 
     /* =======THE SECTION OF THE LEFT SECTION========= */
     .left-section{
         width:25%;
-        float:left;
-        height:1850px;
-        padding:0 15px;
+        float:right;
+        height:700px;
+        padding:0 0;
 
     }
 
     /* =============================== */
     /* THE LEFT SECTION ONE */
     .left-section-one{
-        background:rgb(8, 12, 68);
+        background:#F4F6FA;
         height:700px;
         width:100%;
-        box-shadow:20px 20px 20px 0px rgba(223, 219, 219, 2.9);
+        box-shadow:0;
+        border:1px solid rgb(8, 12, 68);
     }
 
     .left-section-one-top{
@@ -270,16 +266,15 @@
     .left-section-one-top:before{
         content:"";
         border:12px solid transparent;
-        border-bottom-color:red;
+        border-bottom-color:rgb(8, 12, 68);
         bottom:40px;
         left:145px;
         position:absolute;
     }
     .left-section-one-top p{
-        color:white;;
+        color:white;
         padding:10px;
         font-family:cursive;
-        text-shadow:1px 1px #00ff00;
     }
 
     /* ====================================== */
@@ -301,13 +296,14 @@
         /* background:red; */
         width:100%;
         padding:20px;
-        color:white;
+        color:rgb(8, 12, 68);
         font-family:monospace;
         font-size:16px;
     }
     .fa-angle-right{
         float:right;
         font-size:15px;
+        color:rgb(8, 12, 68);
     }
 
 
@@ -317,7 +313,7 @@
         /* background:red; */
         padding:20px;
         width:100%;
-        color:white;
+        color:rgb(8, 12, 68);
         font-family:monospace;
         font-size:16px;
         cursor:pointer;
@@ -328,12 +324,11 @@
         display:none;
     }
     .men-items p{
-        border-bottom:1px solid blue;
         margin-left:20px;
         font-size:19px;
     }
     .men-items p a{
-        color:white;
+        color:rgb(8, 12, 68);
         /* font-weight:normal; */
         text-decoration:none;
         text-transform:capitalize;
@@ -346,7 +341,7 @@
         /* background:red; */
         width:100%;
         padding:20px;
-        color:white;
+        color:rgb(8, 12, 68);
         font-family:monospace;
         font-size:16px;
     }
@@ -356,12 +351,11 @@
         display:none;
     }
     .women-items p{
-        border-bottom:1px solid blue;
         margin-left:20px;
         font-size:19px;
     }
     .women-items p a{
-        color:white;
+        color:rgb(8, 12, 68);
         /* font-weight:normal; */
         text-decoration:none;
         text-transform:capitalize;
@@ -374,7 +368,7 @@
         /* background:red; */
         width:100%;
         padding:20px;
-        color:white;
+        color:rgb(8, 12, 68);
         font-family:monospace;
         font-size:16px;
     }
@@ -384,7 +378,7 @@
         /* background:red; */
         width:100%;
         padding:20px;
-        color:white;
+        color:rgb(8, 12, 68);
         font-family:monospace;
         font-size:16px;
     }
@@ -394,7 +388,7 @@
         /* background:red; */
         width:100%;
         padding:20px;
-        color:white;
+        color:rgb(8, 12, 68);
         font-family:monospace;
         font-size:16px;
     }
@@ -404,7 +398,7 @@
         /* background:red; */
         width:100%;
         padding:20px;
-        color:white;
+        color:rgb(8, 12, 68);
         font-family:monospace;
         font-size:16px;
     }
@@ -414,7 +408,7 @@
         /* background:red; */
         width:100%;
         padding:20px;
-        color:white;
+        color:rgb(8, 12, 68);
         font-family:monospace;
         font-size:16px;
     }
@@ -424,7 +418,7 @@
         /* background:red; */
         width:100%;
         padding:20px;
-        color:white;
+        color:rgb(8, 12, 68);
         font-family:monospace;
         font-size:16px;
     }
@@ -434,14 +428,14 @@
         /* background:red; */
         width:100%;
         padding:20px;
-        color:white;
+        color:rgb(8, 12, 68);
         font-family:monospace;
         font-size:16px;
     }
 
     /*  */
     .tk{
-        background:white;
+        background:rgb(8, 12, 68);
         height:50px;
         width:100%;
         border-radius:25px;
@@ -450,7 +444,7 @@
         height:35px;
         border-radius:35px;
         padding:15px;
-        color:red;
+        color:white;
         text-shadow:1px 1px rgb(8, 12, 68);
     }
     .tk p span{
@@ -468,6 +462,7 @@
         margin-top:20px;
         position:relative;
         padding:10px;
+        display:none;
     }
     .left-section-two-top{
         height:230px;
@@ -523,6 +518,7 @@
         height:500px;
         width:100%;
         margin-top:20px;
+        display:none;
     }
     .left-section-three-one{
         /* background:red; */
@@ -648,6 +644,7 @@
         margin-top:20px;
         transition:0.9s ease;
         position:relative;
+        display:none;
     }
     .left-section-four:hover{
         padding:20px;
@@ -671,12 +668,101 @@
     /* ======THE SECTION OF THE RIGHT SECTION========== */
     .right-section{
         width:75%;
-        float:right;
-        height:800px;
-        padding:10px 0 5px 0;
+        float:left;
+        height:700px;
+        padding:0;
     }
 
 
+    /* ================== */
+    .right-section-left{
+        width:35%;
+        height:600px;
+        float:left;
+        padding:20px;
+    }
+    .right-section-left .product-image{
+        width:100%;
+        height:550px;
+        border:1px solid white;
+    }
+    .product-image img{
+        width:100%;
+        height:100%;
+    }
+
+    .right-section-right{
+        width:65%;
+        height:600px;
+        float:right;
+        padding:20px;
+    }
+    .right-section-right h3{
+        padding:25px;
+        font-size:25px;
+        color:rgb(8, 12, 68);
+        font-family:monospace;
+        background:#e1e6ef;
+        border-radius:10px;
+    }
+
+    .right-section-right p{
+        padding:15px;
+        font-size:25px;
+        color:rgb(8, 12, 68);
+        font-family:arial;
+        font-weight:bold;
+        background:white;
+        margin-top:10px;
+        border-radius:10px;
+    }
+
+    .right-section-right span{
+        color:rgb(8, 12, 68);
+        font-size:15px;
+        font-family:arial;
+        padding:10px;
+        display:block;
+        background:white;
+        margin-top:10px;
+        border-radius:10px;
+        font-weight:bold;
+    }
+
+    .right-section-right select{
+        background:none;
+        width:80%;
+        padding:20px;
+        border:none;
+        color:rgb(8, 12, 68);
+        display:block;
+        background:white;
+        margin-top:10px;
+        border-radius:10px;
+        font-family:cursive;
+        outline:none;
+    }
+
+    .right-section-right button{
+        background:rgb(8, 12, 68);
+        color:white;
+        font-family:arial;
+        padding:20px;
+        text-align:center;
+        border:none;
+        outline:none;
+        width:100%;
+        border-radius:10px;
+        font-size:20px;
+        margin-top:40px;
+        cursor:pointer;
+    }
+
+
+    .fa-cart-arrow-down{
+        margin-right:20px;
+
+    }
 
     /* ========================================== */
     /* FOOTER SECTION */
@@ -948,431 +1034,13 @@
         font-size:14px;
     }
 
-    }
-
-
-
-
-
-
-    /* ===========THE SECTION OF THE ID OF LEFT SECTION=========== */
-
-     /* =======THE SECTION OF THE LEFT SECTION========= */
-     #left-sections{
-        width:100%;
-        float:left;
-        height:1850px;
-        padding:0 15px;
-        display:none;
-        position:absolute;
-        top:0;
-        left:0;
-        z-index:1111;
-        margin-top:90px;
-    }
-
-    /* =============================== */
-    /* THE LEFT SECTION ONE */
-    .left-section-one{
-        background:rgb(8, 12, 68);
-        height:700px;
-        width:100%;
-        box-shadow:20px 20px 20px 0px rgba(223, 219, 219, 2.9);
-    }
-
-    .left-section-one-top{
-        background:none;
-        height:40px;
-        width:100%;
-        text-align:center;
-        color:white;
-        position:relative;
-        margin-bottom:10px;
-        border-bottom:1px solid red;
-    }
-    .left-section-one-top:before{
-        content:"";
-        border:12px solid transparent;
-        border-bottom-color:red;
-        bottom:40px;
-        left:145px;
-        position:absolute;
-        display:none;
-    }
-    .left-section-one-top p{
-        color:#00ff00;
-        padding:10px;
-        font-family:cursive;
-        text-shadow:none;
-    }
-
-    /* ====================================== */
-    /* THE REMAINS OF THE LEFT SECTION ONE */
-    .left-section-one-bottom{
-        overflow:auto;
-        height:710px;
-        width:100%;
-        cursor:pointer;
-        padding:0 10px 10px 10px;
-    }
-    .left-section-one-bottom::-webkit-scrollbar{
-        display:none;
-    }
-
-    /* ================================== */
-    /* THE HOME SECTION */
-    .home{
-        /* background:red; */
-        width:100%;
-        padding:20px;
-        color:white;
-        font-family:monospace;
-        font-size:14px;
-    }
-    .fa-angle-right{
-        float:right;
-        font-size:15px;
-    }
-
-
-    /* ================================= */
-    /* THE MEN SECTION */
-    .men{
-        /* background:red; */
-        padding:20px;
-        width:100%;
-        color:white;
-        font-family:monospace;
-        font-size:14px;
-        cursor:pointer;
-    }
-    .men-items{
-        line-height:50px;
-        margin-top:10px;
-        display:none;
-    }
-    .men-items p{
-        border-bottom:1px solid blue;
-        margin-left:20px;
-        font-size:18px;
-    }
-    .men-items p a{
-        color:white;
-        /* font-weight:normal; */
-        text-decoration:none;
-        text-transform:capitalize;
-        font-family:allura;
-    }
-
-    /* ====================================== */
-    /* THE WOMEN SECTION */
-    .women{
-        /* background:red; */
-        width:100%;
-        padding:20px;
-        color:white;
-        font-family:monospace;
-        font-size:14px;
-    }
-    .women-items{
-        line-height:50px;
-        margin-top:10px;
-        display:none;
-    }
-    .women-items p{
-        border-bottom:1px solid blue;
-        margin-left:20px;
-        font-size:18px;
-    }
-    .women-items p a{
-        color:white;
-        /* font-weight:normal; */
-        text-decoration:none;
-        text-transform:capitalize;
-        font-family:allura;
-    }
-
-    /* ==================================== */
-    /*  */
-    .fashion{
-        /* background:red; */
-        width:100%;
-        padding:20px;
-        color:white;
-        font-family:monospace;
-        font-size:14px;
-    }
-
-    /* ======================================= */
-    .wristwatch{
-        /* background:red; */
-        width:100%;
-        padding:20px;
-        color:white;
-        font-family:monospace;
-        font-size:14px;
-    }
-
-    /* ======================================== */
-    .footwears{
-        /* background:red; */
-        width:100%;
-        padding:20px;
-        color:white;
-        font-family:monospace;
-        font-size:14px;
-    }
-
-    /* ========================================= */
-    .bags{
-        /* background:red; */
-        width:100%;
-        padding:20px;
-        color:white;
-        font-family:monospace;
-        font-size:14px;
-    }
-
-    /* ========================================== */
-    .kids{
-        /* background:red; */
-        width:100%;
-        padding:20px;
-        color:white;
-        font-family:monospace;
-        font-size:14px;
-    }
-
-    /* =========================================== */
-    .trousers{
-        /* background:red; */
-        width:100%;
-        padding:20px;
-        color:white;
-        font-family:monospace;
-        font-size:14px;
-    }
-
-    /* =========================================== */
-    .shirts{
-        /* background:red; */
-        width:100%;
-        padding:20px;
-        color:white;
-        font-family:monospace;
-        font-size:14px;
-    }
-
-    /*  */
-    .tk{
-        background:white;
-        height:40px;
-        width:100%;
-        border-radius:25px;
-    }
-    .tk p{
-        height:35px;
-        border-radius:35px;
-        padding:10px;
-        color:red;
-        text-shadow:1px 1px rgb(8, 12, 68);
-        font-size:14px;
-    }
-    .tk p span{
-        font-family:allura;
-        font-size:17px;
-    }
-
-
-    /* ======================================= */
-    /* THE LEFT SECTION TWO */
-    .left-section-two{
-        background:#F4F6FA;
-        height:300px;
-        width:100%;
-        margin-top:0px;
-        position:relative;
-        padding:10px;
-    }
-    .left-section-two-top{
-        height:230px;
-        width:100%;
-        transition:0.9s ease;
-    }
-    .left-section-two-top:hover{
-        height:250px;
-        box-shadow:20px 10px 20px 0 rgba(0,0,0,0.1);
-    }
-    .left-section-two-top button{
-        background:red;
-        color:white;
-        border-radius:5px;
-        width:100%;
-        padding:15px;
-        border:none;
-        outline:none;
-    }
-
-    .bg-view{
-        background:red;
-        height:40px;
-        width:50%;
-        color:white;
-        position:absolute;
-        top:120px;
-        left:0;
-        border-radius:0 25px 25px 0;
-        display:none;
-    }
-    .bg-view span{
-        font-family:Amita;
-        font-size:12px;
-        margin-bottom:0;
-        line-height:0;
-        margin-left:10px;
-        font-weight:bold;
-    }
-    .bg-view p{
-        font-family:Amita;
-        font-weight:bold;
-        font-size:10px;
-        margin-top:0;
-        margin-left:10px;
-    }
-
-
-    /* ======================================================== */
-    /* THE LEFT SECTION THREE */
-    .left-section-three{
-        background:#e1e6ef;
-        height:500px;
-        width:100%;
-        margin-top:0px;
-    }
-    .left-section-three-one{
-        /* background:red; */
-        color:red;
-        height:100px;
-        width:100%;
-        border-bottom:1px solid rgb(8, 12, 68);;
-    }
-    .file{
-        width:30%;
-        height:100px;
-        float:left;
-        padding:15px;
-    }
-    .fa-file{
-        font-size:50px;
-        margin-top:10px;
-
-    }
-
-    .words{
-        width:70%;
-        height:100px;
-        float:right;
-    }
-    .words h2{
-        font-family:monospace;
-        margin-top:30px;
-        font-weight:bold;
-        font-size:16px;
-    }
-    .words p{
-        font-family:monospace;
-        margin-top:5px;
-        font-weight:bold;
-        font-size:11px;
-    }
-
-
-    /* ======================================= */
-    .left-section-three-two{
-        /* background:red; */
-        color:red;
-        height:100px;
-        width:100%;
-        border-bottom:1px solid rgb(8, 12, 68);;
-    }
-    .fa-shield{
-        font-size:50px;
-        margin-top:10px;
-
-    }
-
-    .words{
-        width:70%;
-        height:100px;
-        float:right;
-    }
-    .words h2{
-        font-family:monospace;
-        margin-top:30px;
-        font-weight:bold;
-    }
-    .words p{
-        font-family:monospace;
-        margin-top:5px;
-        font-weight:bold;
-        color:rgb(8, 12, 68);
-    }
-
-
-    /* ================================== */
-    /*  */
-    .left-section-three-three{
-        /* background:red; */
-        color:red;
-        height:100px;
-        width:100%;
-        border-bottom:1px solid rgb(8, 12, 68);;
-    }
-    .left-section-three-three .fa-gift{
-        font-size:50px;
-        margin-top:10px;
-    }
-
-
-    /* ======================================== */
-    /*  */
-    .left-section-three-four{
-        /* background:red; */
-        color:red;
-        height:100px;
-        width:100%;
-        border-bottom:1px solid rgb(8, 12, 68);;
-
-    }
-    .fa-money{
-        font-size:50px;
-        margin-top:10px;
-    }
-
-
-    /* ====================================================== */
-    .left-section-four{
-        height:255px;
-        width:100%;
-        margin-top:0px;
-        transition:0.9s ease;
-        position:relative;
-        display:none;
-    }
-    .left-section-four:hover{
-        padding:20px;
-        box-shadow:0 20px 20px 0 rgba(0,0,0,0.1);
-    }
-    .four-price{
-        background:rgb(8, 12, 68);
-        padding:8px;
-        position:absolute;
-        left:0;
-        bottom:40px;
-        color:white;
-        font-weight:bold;
+    #left-sections{
         display:none;
     }
 
     }
+
+
+
+
 
