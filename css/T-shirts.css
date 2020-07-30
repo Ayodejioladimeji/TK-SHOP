@@ -15,7 +15,7 @@
     .container{
         width:100%;
         /* height:4100px; */
-        background:#999;
+        background:#F4F6FA;
     }
 
 
@@ -237,7 +237,7 @@
     section{
         height:5710px;
         width:100%;
-        background:#999;
+        background:#F4F6FA;
     }
 
     /* =======THE SECTION OF THE LEFT SECTION========= */
@@ -485,6 +485,7 @@
         padding:15px;
         border:none;
         outline:none;
+        cursor:pointer;
     }
 
     .bg-view{
@@ -686,6 +687,11 @@
         left:0;
         border:2px solid red;
     }
+    .left-section-five p:hover{
+        background:red;
+        border:2px solid rgb(8, 12, 68);
+        cursor:pointer;
+    }
 
 
     /* =================================== */
@@ -709,6 +715,11 @@
         left:0;
         border:2px solid red;
     }
+    .left-section-six p:hover{
+        background:red;
+        border:2px solid rgb(8, 12, 68);
+        cursor:pointer;
+    }
 
 
     /* =================================== */
@@ -731,6 +742,11 @@
         bottom:50px;
         left:0;
         border:2px solid red;
+    }
+    .left-section-seven p:hover{
+        background:red;
+        border:2px solid rgb(8, 12, 68);
+        cursor:pointer;
     }
 
 
@@ -756,6 +772,11 @@
         left:0;
         border:2px solid red;
     }
+    .left-section-eight p:hover{
+        background:red;
+        border:2px solid rgb(8, 12, 68);
+        cursor:pointer;
+    }
 
 
     /* =============================== */
@@ -779,6 +800,12 @@
         left:0;
         border:2px solid red;
     }
+    .left-section-nine p:hover{
+        background:red;
+        border:2px solid rgb(8, 12, 68);
+        cursor:pointer;
+    }
+
 
 
     /* ============================== */
@@ -788,7 +815,7 @@
         transition:0.9s ease;
         position:relative;
     }
-    .left-section-five:hover{
+    .left-section-ten:hover{
         padding:20px;
     }
 
@@ -802,6 +829,12 @@
         left:0;
         border:2px solid red;
     }
+    .left-section-ten p:hover{
+        background:red;
+        border:2px solid rgb(8, 12, 68);
+        cursor:pointer;
+    }
+
 
 
     /* ================================= */
@@ -825,6 +858,12 @@
         left:0;
         border:2px solid red;
     }
+    .left-section-eleven p:hover{
+        background:red;
+        border:2px solid rgb(8, 12, 68);
+        cursor:pointer;
+    }
+
 
 
     /* =================================== */
@@ -848,6 +887,12 @@
         left:0;
         border:2px solid red;
     }
+    .left-section-twelve p:hover{
+        background:red;
+        border:2px solid rgb(8, 12, 68);
+        cursor:pointer;
+    }
+
 
 
     /* ============================= */
@@ -870,6 +915,11 @@
         bottom:50px;
         left:0;
         border:2px solid red;
+    }
+    .left-section-thirteen p:hover{
+        background:red;
+        border:2px solid rgb(8, 12, 68);
+        cursor:pointer;
     }
 
 
@@ -894,6 +944,11 @@
         left:0;
         border:2px solid red;
     }
+    .left-section-fourteen p:hover{
+        background:red;
+        border:2px solid rgb(8, 12, 68);
+        cursor:pointer;
+    }
 
 
     /* ================================ */
@@ -917,7 +972,15 @@
         left:0;
         border:2px solid red;
     }
+    .left-section-fifteen p:hover{
+        background:red;
+        border:2px solid rgb(8, 12, 68);
+        cursor:pointer;
+    }
 
+
+
+    /* =========================== */
     .left-section-sixteen{
         height:350px;
         width:100;
@@ -937,6 +1000,11 @@
         bottom:50px;
         left:0;
         border:2px solid red;
+    }
+    .left-section-sixteen p:hover{
+        background:red;
+        border:2px solid rgb(8, 12, 68);
+        cursor:pointer;
     }
 
 
@@ -959,8 +1027,10 @@
     .right-section-main h3{
         padding:20px;
         font-family:monospace;
-        font-size:20px;
+        font-size:30px;
         color:rgb(8, 12, 68);
+        letter-spacing:3px;
+        text-shadow:1px 1px red;
     }
 
 
@@ -1015,6 +1085,9 @@
         font-weight:bold;
         cursor:pointer;
     }
+    .fill-left button:hover{
+        background:red;
+    }
 
 
 
@@ -1057,6 +1130,9 @@
         font-weight:bold;
         cursor:pointer;
     }
+    .fill-middle button:hover{
+        background:red;
+    }
 
 
 
@@ -1098,6 +1174,9 @@
         border-radius:5px;
         font-weight:bold;
         cursor:pointer;
+    }
+    .fill-right button:hover{
+        background:red;
     }
 
 
@@ -1245,13 +1324,40 @@
         height:290px;
         margin-bottom:10px;
     }
+
+
+    .pagination{
+        background:#e1e6ef;
+        color:white;
+        width:100%;
+        text-align:center;
+        padding:50px;
+        margin-top:150px;
+    }
+
+    .pagination a{
+        text-decoration:none;
+        color:rgb(8, 12, 68);
+        padding:10px 15px;
+        margin-top:30px;
+        font-size:20px;
+        font-family:monospace;
+        border:1px solid red;
+        letter-spacing:5px;
+    }
+    .pagination a:hover{
+        background:white;
+    }
+
+
+
     /* ========================================== */
     /* FOOTER SECTION */
     footer{
         background:rgb(8, 12, 68);
         width:100%;
         height:150px;
-        margin-top:20px;
+        margin-top:0px;
         /* display:none; */
     }
     .foot1{

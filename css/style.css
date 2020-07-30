@@ -378,6 +378,10 @@
         font-family:monospace;
         font-size:16px;
     }
+    .fashion a{
+        color:white;
+        text-decoration:none;
+    }
 
     /* ======================================= */
     .wristwatch{
@@ -445,6 +449,7 @@
         height:50px;
         width:100%;
         border-radius:25px;
+        text-align:center;
     }
     .tk p{
         height:35px;
@@ -684,6 +689,7 @@
         height:400px;
         background:#e1e6ef;
         box-shadow:0 20px 40px 0 rgba(0,0,0,0.1);
+        position:relative;
     }
 
     /* ===================================== */
@@ -752,6 +758,9 @@
         border:none;
         outline:none;
         text-transform:uppercase;
+    }
+    .paragraph button:hover{
+        background:rgb(8, 12, 68);
     }
 
     .right-section-one-left figure{
@@ -855,6 +864,25 @@
         text-align:center;
 
     }
+
+    #top{
+        background:red;
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        position:fixed;
+        top:90%;
+        right:10px;
+        z-index:222222222;
+        outline:none;
+        display:none;
+    }
+    #top .fa-chevron-up{
+        color:white;
+        font-size:15px;
+        cursor:pointer;
+    }
+
 
 
     /* ======================================================== */
@@ -970,6 +998,9 @@
         cursor:pointer;
         font-weight:bold;
         border-radius:5px;
+    }
+    .right-section-three-bottom button:hover{
+        background:red;
     }
     .bottom-top img{
         width:100%;
@@ -1161,7 +1192,9 @@
         margin-top:25px;
         font-weight:bold;
     }
-
+    .before button:hover{
+        background:rgb(8, 12, 68);
+    }
 
 
 
@@ -1173,7 +1206,6 @@
         height:490px;
         width:100%;
         margin-top:20px;
-
         padding:5px;
         /* display:none; */
     }
@@ -1210,6 +1242,12 @@
         position:absolute;
         bottom:0;
         right:0;
+        border:2px solid red;
+        border-radius:25px 0 0 25px;
+    }
+    .four-01-top p:hover{
+        background:red;
+        border:2px solid rgb(8, 12, 68);
     }
 
 
@@ -1229,6 +1267,12 @@
         position:absolute;
         bottom:0;
         right:0;
+        border:2px solid red;
+        border-radius:25px 0 0 25px;
+    }
+    .four-01-bottom p:hover{
+        background:red;
+        border:2px solid rgb(8, 12, 68);
     }
 
 
@@ -1262,6 +1306,12 @@
         position:absolute;
         bottom:0;
         right:0;
+        border:2px solid red;
+        border-radius:25px 0 0 25px;
+    }
+    .four-02-top p:hover{
+        background:red;
+        border:2px solid rgb(8, 12, 68);
     }
 
 
@@ -1281,6 +1331,12 @@
         position:absolute;
         bottom:0;
         right:0;
+        border:2px solid red;
+        border-radius:25px 0 0 25px;
+    }
+    .four-02-bottom p:hover{
+        background:red;
+        border:2px solid rgb(8, 12, 68);
     }
 
 
@@ -2329,6 +2385,9 @@
         font-family:monospace;
         font-size:14px;
     }
+    #left-sections{
+        display:none;
+    }
 
     }
 
@@ -2727,8 +2786,8 @@
         text-decoration:none;
         text-transform:capitalize;
         font-family:allura;
-    }
 
+    }
     /* ==================================== */
     /*  */
     .fashion{
@@ -2738,6 +2797,10 @@
         color:white;
         font-family:monospace;
         font-size:16px;
+    }
+#fash{
+        color:white;
+        text-decoration:none;
     }
 
     /* ======================================= */
@@ -3076,7 +3139,7 @@
     .paragraph{
         position:absolute;
         top:5%;
-        left:23%;
+        left:26%;
 
     }
 
@@ -3222,6 +3285,23 @@
         text-align:center;
 
     }
+    #top{
+        background:red;
+        width:40px;
+        height:40px;
+        border-radius:50%;
+        position:fixed;
+        top:85%;
+        right:20px;
+        z-index:222222222;
+        outline:none;
+        display:none;
+    }
+    #top .fa-chevron-up{
+        color:white;
+        font-size:15px;
+        cursor:pointer;
+    }
 
 
     /* ==================================================================== */
@@ -3248,7 +3328,7 @@
     .right-section-two span{
         position:absolute;
         top:24px;
-        left:15px;
+        left:35px;
         color:#00ff00;
         overflow:initial;
         z-index:111;
@@ -4655,7 +4735,7 @@
         margin-top:50px;
         color:white;
         font-family:arial;
-        font-size:22px;
+        font-size:20px;
         margin-bottom:20px;
     }
     .footer2 ul{
@@ -4664,7 +4744,7 @@
         line-height:50px;
         margin-left:60px;
         font-family:monospace;
-        font-size:15px;
+        font-size:12px;
     }
     .footer2 li a{
         color:white;
@@ -4739,7 +4819,7 @@
         text-align:center;
     }
     .copy p{
-        padding:10px;
+        padding:13px;
         font-family:monospace;
         font-size:10px;
     }
@@ -4771,6 +4851,7 @@
         height:700px;
         width:100%;
         box-shadow:20px 20px 20px 0px rgba(223, 219, 219, 2.9);
+
     }
 
     .left-section-one-top{
@@ -4825,6 +4906,7 @@
     .fa-angle-right{
         float:right;
         font-size:15px;
+        display:none;
     }
 
 

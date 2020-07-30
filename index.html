@@ -117,14 +117,14 @@
                             <i class="fa fa-angle-right"></i>
 
                             <div class="men-items">
-                                <p><a href="#">Wristwatch</a></p>
-                                <p><a href="#">Belts</a></p>
-                                <p><a href="#">Suits</a></p>
-                                <p><a href="#">fashion cloth</a></p>
-                                <p><a href="#">T-shirts</a></p>
-                                <p><a href="#">Jeans</a></p>
-                                <p><a href="#">Trousers</a></p>
-                                <p><a href="#">Footwears</a></p>
+                                <p><a href="m-clothing.html">Clothing
+                                <p><a href="shoes.html">Shoes</a></p>
+                                <p><a href="accessories.html">Accessories</a></p>
+                                <p><a href="underwears.html">Underwear</a></p>
+                                <p><a href="T-shirts.html">T-Shirts</a></p>
+                                <p><a href="polo-shirts.html">Polo Shirts</a></p>
+                                <p><a href="sneakers.html">Sneakers</a></p>
+                                <p><a href="jersey.html">Jersey</a></p>
                             </div>
                         </div>
 
@@ -134,19 +134,19 @@
                             <i class="fa fa-angle-right"></i>
 
                             <div class="women-items">
-                                <p><a href="#">Wristwatch</a></p>
-                                <p><a href="#">Belts</a></p>
-                                <p><a href="#">Suits</a></p>
-                                <p><a href="#">fashion cloth</a></p>
-                                <p><a href="#">T-shirts</a></p>
-                                <p><a href="#">Jeans</a></p>
-                                <p><a href="#">Trousers</a></p>
-                                <p><a href="#">Footwears</a></p>
+                                <p><a href="#">Clothing</a></p>
+                                <p><a href="#">Shoes</a></p>
+                                <p><a href="#">Accessories</a></p>
+                                <p><a href="#">Underwear & Sleepwear</a></p>
+                                <p><a href="#">Dresses</a></p>
+                                <p><a href="#">Handbags & Wallets</a></p>
+                                <p><a href="#">Maternity</a></p>
+                                <p><a href="#">Beach & Swimwear</a></p>
                             </div>
                         </div>
 
                         <div class="fashion">
-                            <a href="random.html">
+                            <a href="random.html" id="fash">
                             <i class="fa fa-suitcase"></i>
                             FASHION
                             <i class="fa fa-angle-right"></i>
@@ -316,6 +316,12 @@
                             <h4 class="animated fadeInUp slow">NEW PRODUCTS</h4>
                         </div>
                     </div>
+
+                    <div class="top-button">
+                        <button id="top" onclick="topFunction()"><i class="fa fa-chevron-up"></i></button>
+                    </div>
+
+
                 </div>
 
                 <!-- THE SECTION OF THE RIGHT TWO -->
@@ -331,7 +337,6 @@
                     <p>
                         <marquee>Check out our New offers/gifts every single day on weekends. New Coupon code :
                             FLOPPY201
-
                         </marquee>
                     </p>
 
@@ -667,9 +672,9 @@
             <div class="article-two">
                 <figure>
                     <img src="../images/j.jpg" id="13">
-                    <img src="../images/y.jpg" id="13">
-                    <img src="../images/j2.jpg" id="13">
-                    <img src="../images/j3.jpg" id="13">
+                    <img src="../images/o1.jpg" id="13">
+                    <img src="../images/g15.jpg" id="13">
+                    <img src="../images/b10.jpg" id="13">
                     <img src="../images/j.jpg" id="13">
                 </figure>
 
@@ -865,14 +870,14 @@
                     <i class="fa fa-angle-right"></i>
 
                     <div class="men-items">
-                        <p><a href="#">Wristwatch</a></p>
-                        <p><a href="#">Belts</a></p>
-                        <p><a href="#">Suits</a></p>
-                        <p><a href="#">fashion cloth</a></p>
-                        <p><a href="#">T-shirts</a></p>
-                        <p><a href="#">Jeans</a></p>
-                        <p><a href="#">Trousers</a></p>
-                        <p><a href="#">Footwears</a></p>
+                        <p><a href="m-clothing.html">Clothing
+                        <p><a href="shoes.html">Shoes</a></p>
+                        <p><a href="accessories.html">Accessories</a></p>
+                        <p><a href="underwears.html">Underwear</a></p>
+                        <p><a href="T-shirts.html">T-Shirts</a></p>
+                        <p><a href="polo-shirts.html">Polo Shirts</a></p>
+                        <p><a href="sneakers.html">Sneakers</a></p>
+                        <p><a href="jersey.html">Jersey</a></p>
                     </div>
                 </div>
 
@@ -882,14 +887,14 @@
                     <i class="fa fa-angle-right"></i>
 
                     <div class="women-items">
-                        <p><a href="#">Wristwatch</a></p>
-                        <p><a href="#">Belts</a></p>
-                        <p><a href="#">Suits</a></p>
-                        <p><a href="#">fashion cloth</a></p>
-                        <p><a href="#">T-shirts</a></p>
-                        <p><a href="#">Jeans</a></p>
-                        <p><a href="#">Trousers</a></p>
-                        <p><a href="#">Footwears</a></p>
+                        <p><a href="#">Clothing</a></p>
+                        <p><a href="#">Shoes</a></p>
+                        <p><a href="#">Accessories</a></p>
+                        <p><a href="#">Underwear & Sleepwear</a></p>
+                        <p><a href="#">Dresses</a></p>
+                        <p><a href="#">Handbags & Wallets</a></p>
+                        <p><a href="#">Maternity</a></p>
+                        <p><a href="#">Beach & Swimwear</a></p>
                     </div>
                 </div>
 
@@ -1024,6 +1029,31 @@
             </div>
         </div>
     </div>
+
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("top");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                mybutton.style.display = "block";
+            }
+            else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the page
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
 
 </body>
 
