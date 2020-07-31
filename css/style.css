@@ -235,7 +235,7 @@
     /* =========================================================== */
     /* ======THE SECTION OF THE SECTION======= */
     section{
-        height:1850px;
+        height:1820px;
         width:100%;
         /* background:blue; */
     }
@@ -244,7 +244,7 @@
     .left-section{
         width:25%;
         float:left;
-        height:1850px;
+        height:1820px;
         padding:0 15px;
 
     }
